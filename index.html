@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jhonath Alencar</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Cor suave de fundo */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 30px;
+        }
+
+        img.hobby {
+            width: 300px;
+            border-radius: 15px;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        a {
+            color: #0000ee;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #ff4500;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #mensagem {
+            margin-top: 15px;
+            font-size: 20px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Jhonath Alencar</h1>
+    <h2>Biografia:</h2>
+
+    <p>Meu nome é Jhonath Ramos Vido Alencar, tenho 37 anos, nascido em Belém-PA.
+        Sou casado, pai de 2 meninas e 1 menino, sargento do corpo de bombeiros militar
+        de roraima. Meu interesse no curso de Análise e Desenvolvimento de Sistemas,
+        além do interesse no curso, é devido ao fato que na profissão atual,
+        irei necessitar de um curso superior para galgar promoções futuras. Pretendo
+        adiquirir conhecimentos suficientes para postergar fulturas rendas extras,
+        haja visto que atualmente já possuo emprego fixo e renda garantida por ser
+        funcionário público.
+    </p>
+
+    <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+    <div id="mensagem"></div>
+    
+    <h2>Atividades favoritas:</h2>
+    <ul>
+        <li>Jogar bola</li>
+        <li>Jogar Vídeo-game</li>
+        <li>Ficar com a família</li>
+    </ul>
+
+    <img class="hobby" src="https://ecrie70.com.br/sistema/conteudos/imagem/g_66_0_1_23052023103036.jpg" alt="Jogando vídeo game">
+   
+    <h2>Países que gostaria de visitar:</h2>
+    <table>
+        <tr>
+            <td>Chile</td>
+            <td><img src="https://flagcdn.com/w320/cl.png" alt="Bandeira do Chile" width="100"></td>
+        </tr>
+        <tr>
+            <td>Portugal</td>
+            <td><img src="https://flagcdn.com/w320/pt.png" alt="Bandeira de Portugal" width="100"></td>
+        </tr>
+        <tr>
+            <td>Estados Unidos</td>
+            <td><img src="https://flagcdn.com/w320/us.png" alt="Bandeira dos EUA" width="100"></td>
+        </tr>
+    </table>
+    
+    <h2>Site de meu interesse:</h2>
+    <a href="https://g1.globo.com/" target="_blank">Acesse o G1</a>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").innerText = "Vida alheia, riquezas salvar!!!";
+        }
+    </script>
+
+</body>
+</html>
